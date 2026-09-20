@@ -6,6 +6,7 @@
   "scripts": {
     "generate:openapi": "bun scripts/generate-openapi.ts",
     "test:response-compliance": "./scripts/compliance-test.sh"
+    "build:vercel": "bun run build"
   },
   "dependencies": {
     "@hono/standard-validator": "^0.3.0",
